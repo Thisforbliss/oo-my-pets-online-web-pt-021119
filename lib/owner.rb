@@ -68,6 +68,7 @@ class Owner
   @pets[:dogs].each do |dog|
      dog.mood = "nervous"  
     end
+    @pets = []
   end
       
     
